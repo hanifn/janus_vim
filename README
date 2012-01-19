@@ -1,0 +1,13 @@
+Installation:
+
+  git clone git://github.com/hanifn/janus_vim.git ~/.janus
+
+Create symlinks:
+
+  ln -s ~/.janus/vimrc.after ~/.vimrc.after
+
+Switch to the '~/.janus' directory and fetch submodules:
+
+  cd ~/.janus
+  git submodule init
+  git submodule update
