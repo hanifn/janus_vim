@@ -1,0 +1,11 @@
+" set theme
+color desert
+
+" remove toolbar and scrollbar
+set guioptions=aAce
+
+" add transparency for MacVim. (requires experimental renderer)
+set transparency=15
+
+" set to wrap lines
+set wrapscan
