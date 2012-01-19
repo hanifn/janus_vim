@@ -1,3 +1,9 @@
+Prerequisites: 
+
+  curl -Lo- http://bit.ly/janus-bootstrap | bash
+
+  see https://github.com/carlhuda/janus for more info on janus
+
 Installation:
 
   git clone git://github.com/hanifn/janus_vim.git ~/.janus
