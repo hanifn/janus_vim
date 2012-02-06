@@ -1,0 +1,2 @@
+" disable unneeded plugins
+call janus#disable_plugin('syntastic')
