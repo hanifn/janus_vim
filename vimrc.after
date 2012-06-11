@@ -9,3 +9,8 @@ set transparency=15
 
 " set to wrap lines
 set wrap linebreak nolist
+
+" set tab width
+set tabstop=4
+set shiftwidth=4
+set expandtab
