@@ -4,6 +4,10 @@ Prerequisites:
 
   see https://github.com/carlhuda/janus for more info on janus
 
+  Install Exuburant CTags for Tagbar to work
+
+  brew install ctags-exuberant
+
 Installation:
 
   git clone git://github.com/hanifn/janus_vim.git ~/.janus
