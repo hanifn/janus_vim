@@ -1,11 +1,15 @@
 " set theme
-color desert
+syntax enable
+set background=dark
+colorscheme solarized
 
 " remove toolbar and scrollbar
 set guioptions=aAce
 
 " add transparency for MacVim. (requires experimental renderer)
-set transparency=15
+if has('gui_running')
+    set transparency=10
+endif
 
 " set to wrap lines
 set wrap linebreak nolist
@@ -14,3 +18,11 @@ set wrap linebreak nolist
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" powerline 
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+
+" powerline fonts
+set guifont=Source\ Code\ Pro\ for\ Powerline:h12
